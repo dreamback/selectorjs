@@ -11,7 +11,7 @@
 			//地区选择器
 			area: {
 				init: function(target, value, full) {
-					SelectorJS.script('address.json', function(code) {
+					SelectorJS.script('address.js', function(code) {
 						this.code = code;
 						this.target = $(target);
 						this.dt = this.target.find('dt');
@@ -273,8 +273,8 @@
 					len = script.length;
 				for (; i < len; i++) {
 					if (/Selector.js/.test(script[i].src)) {
-						$.getJSON(script[i].src.replace('Selector.js', src), function(json, textStatus) {
-							callback.call(that, json, textStatus);
+						$.getScript(script[i].src.replace('Selector.js', src), function() {
+							callback.call(that, addressCode);
 						});
 						break;
 					}
