@@ -1,0 +1,23 @@
+.m-form{background:#fff;padding:50px;font-family:12px/1.5 arial,\5b8b\4f53,sans-serif;}
+.m-form ul,.m-form li,.m-form dl,.m-form dt,.m-form dd{padding:0;margin:0;list-style:none;}
+.m-form label{color:#6E6E6E;display:inline-block;height:36px;float:left;line-height:36px;width:120px;text-align:right;padding-right:20px;}
+.m-form .item{height:46px;margin-bottom:10px;}
+.m-form .t{display:block;height:36px;line-height:36px;padding:0 10px;float:left;}
+.m-select{height:36px;float:left;width:234px;background-image:url(http://images.zastatic.com/elove/images/icon/selector.png);background-repeat:no-repeat;background-position:100% 0;border-radius: 5px;}
+.m-select-w{width:100px;}
+.m-focus{background-position:100% 100%;position:relative;}
+.m-select dt{line-height:32px;border:2px solid #E3E3E3;text-align:center;text-indent:-31px;cursor:pointer;height:32px;border-radius: 5px;}
+.m-select dd{width:100%;overflow-y:auto;background:#fff;position:absolute;left:0;top:34px;display:none;border-top:2px solid #E3E3E3;border-bottom:2px solid #E3E3E3;border-radius: 5px;box-shadow:0 6px 12px rgba(0,0,0,0.175)}
+.m-select dd a{display:block;font-size:14px;text-indent:1em;line-height:32px;border-right:2px solid #E3E3E3;border-left:2px solid #E3E3E3;height:32px;}
+.m-select dd a:hover{text-decoration:none;background:#eee;}
+
+.m-select dd.age,.m-select dd.height{width:400px;border:2px solid #E3E3E3;}
+.m-select dd.age a,.m-select dd.height a{float:left;width:40px;text-align:center;border:none;display:inline-block;text-indent:0;height:24px;line-height:24px;}
+
+.m-select dd.region{width:460px;height:200px;border:2px solid #E3E3E3;}
+.region .tab{height:28px;padding:10px 0 0 10px;}
+.region .tab li{float:left;height:24px;line-height:24px;padding:0 20px;border:1px solid #E3E3E3;margin-right:5px;cursor:pointer;}
+.region .tab li.on{border:2px solid #7DB3D4;cursor:default;position:relative;background:#7DB3D4;color:#fff;}
+.region .tab-con{border-top:2px solid #7DB3D4;margin:0 10px 10px 10px;position:relative;top:-2px;background:#fff;}
+.m-select dd.region a{float:left;text-align:center;border:none;width:62px;overflow:hidden;overflow:hidden;display:inline-block;text-indent:0;}
+.m-form .form-item{position:static;margin-bottom:200px;}
