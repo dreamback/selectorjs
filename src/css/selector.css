@@ -3,7 +3,7 @@
 .m-form label{color:#6E6E6E;display:inline-block;height:36px;float:left;line-height:36px;width:120px;text-align:right;padding-right:20px;}
 .m-form .item{height:46px;margin-bottom:10px;}
 .m-form .t{display:block;height:36px;line-height:36px;padding:0 10px;float:left;}
-.m-select{height:36px;float:left;width:234px;background-image:url(http://images.zastatic.com/elove/images/icon/selector.png);background-repeat:no-repeat;background-position:100% 0;border-radius: 5px;}
+.m-select{height:36px;float:left;width:234px;background-image:url(../images/selector.png);background-repeat:no-repeat;background-position:100% 0;border-radius: 5px;}
 .m-select-w{width:100px;}
 .m-focus{background-position:100% 100%;position:relative;}
 .m-select dt{line-height:32px;border:2px solid #E3E3E3;text-align:center;text-indent:-31px;cursor:pointer;height:32px;border-radius: 5px;}
