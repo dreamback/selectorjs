@@ -146,16 +146,16 @@ $ git checkout gh-pages
       });  
 
       //年龄联动
-      SelectorJS.age('#Age0','#Age1',25,27);
+      new SelectorJS.age('#Age0','#Age1',25,27);
 
       //身高联动
-      SelectorJS.heightMulti('#Height0','#Height1',168,178);
+      new SelectorJS.heightMulti('#Height0','#Height1',168,178);
 
       //地区联动 二级
-      SelectorJS.area.init('#AreaSelector','101020600', false);
+      new SelectorJS.area.init('#AreaSelector','101020600', false);
 
       //地区联动 三级
-      SelectorJS.area.init('#AreaSelector2','101151202', true);
+      new SelectorJS.area.init('#AreaSelector2','101151202', true);
 
       //自定义联动
       var salaryCode = [["1", "1000"], ["2", "2000"], ["3", "3000"], ["4", "5000"], ["5", "8000"], ["6", "10000"], ["7", "20000"], ["8", "50000"], ["9", "50000以上"] ];
@@ -182,7 +182,7 @@ $ git checkout gh-pages
 </pre>
 
 <h3>说明</h3>
-<p>Selector.js与address.json俩个文件必须放在同一个目录下。当调用地区的方法的时候才加载adrress文件</p>
+<p>Selector.js与address.json两个文件必须放在同一个目录下。当调用地区的方法的时候才加载adrress文件</p>
 </section>
 <footer>
   Selectorjs is maintained by <a href="https://github.com/dreamback">dreamback</a><br>
@@ -198,16 +198,16 @@ $ git checkout gh-pages
       });  
 
       //年龄联动
-      SelectorJS.age('#Age0','#Age1',25,27);
+      new SelectorJS.age('#Age0','#Age1',25,27);
 
       //身高联动
-      SelectorJS.heightMulti('#Height0','#Height1',168,178);
+      new SelectorJS.heightMulti('#Height0','#Height1',168,178);
 
       //地区联动 二级
-      SelectorJS.area.init('#AreaSelector','101020600', false);
+      new SelectorJS.area.init('#AreaSelector','101020600', false);
 
       //地区联动 三级
-      SelectorJS.area.init('#AreaSelector2','101151202', true);
+      new SelectorJS.area.init('#AreaSelector2','101151202', true);
 
       //自定义联动
       var salaryCode = [["1", "1000"], ["2", "2000"], ["3", "3000"], ["4", "5000"], ["5", "8000"], ["6", "10000"], ["7", "20000"], ["8", "50000"], ["9", "50000以上"] ];
